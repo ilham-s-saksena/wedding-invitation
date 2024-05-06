@@ -56,7 +56,7 @@
 </div>
 
 <!-- drawer component -->
-<div id="drawer-example" class="fixed top-0 left-0 z-50 overflow-hidden h-screen transition-transform bg-white w-screen dark:bg-gray-800 transform-none grid place-items-center" tabindex="-1" aria-labelledby="drawer-label" aria-modal="true" role="dialog">
+<div id="drawer-example" class="fixed top-0 left-0 z-50 overflow-hidden h-screen transition-transform bg-white w-screen dark:bg-gray-800 transform-all grid place-items-center place-items-center " tabindex="-1" aria-labelledby="drawer-label" aria-modal="true" role="dialog">
 
 
 <!-- <div id="drawer-example" class="fixed top-0 left-0 z-50 overflow-hidden h-screen transition-transform bg-white w-screen dark:bg-gray-800 grid place-items-center -translate-x-full" tabindex="-1" aria-labelledby="drawer-label" aria-hidden="true"> -->
@@ -121,9 +121,9 @@
 </div>
 
              
-<main class="grid w-full place-items-center">
+<main class="w-screen overflow-hidden relative">
 
-    <section id="home" class="w-full max-w-lg text-center h-screen relative grid place-items-center overflow-hidden">
+    <section id="home" class="w-screen text-center h-screen relative grid place-items-center overflow-hidden">
 
         <div id="default-carousel" class="z-10 absolute overflow-hidden border w-full" data-carousel="slide">
             <!-- Carousel wrapper -->
