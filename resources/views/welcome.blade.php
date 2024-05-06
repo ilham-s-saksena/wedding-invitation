@@ -56,10 +56,10 @@
 </div>
 
 <!-- drawer component -->
-<!-- <div id="drawer-example" class="fixed top-0 left-0 z-50 overflow-hidden h-screen transition-transform bg-white w-screen dark:bg-gray-800 transform-none grid place-items-center" tabindex="-1" aria-labelledby="drawer-label" aria-modal="true" role="dialog"> -->
+<div id="drawer-example" class="fixed top-0 left-0 z-50 overflow-hidden h-screen transition-transform bg-white w-screen dark:bg-gray-800 transform-none grid place-items-center" tabindex="-1" aria-labelledby="drawer-label" aria-modal="true" role="dialog">
 
 
-<div id="drawer-example" class="fixed top-0 left-0 z-50 overflow-hidden h-screen transition-transform bg-white w-screen dark:bg-gray-800 grid place-items-center -translate-x-full" tabindex="-1" aria-labelledby="drawer-label" aria-hidden="true">
+<!-- <div id="drawer-example" class="fixed top-0 left-0 z-50 overflow-hidden h-screen transition-transform bg-white w-screen dark:bg-gray-800 grid place-items-center -translate-x-full" tabindex="-1" aria-labelledby="drawer-label" aria-hidden="true"> -->
    
    
 
@@ -148,12 +148,12 @@
         <div class="absolute w-full h-[80vh] left-0 bottom-0 bg-gradient-to-t from-amber-700 via-white/25 to-white/0 z-40"></div>
 
         
-        <div class="z-50">
+        <div class="z-40">
             <h2 class="text-3xl font-semibold sacramento-regular textShadow">The Wedding of</h2>
             <h1 class="text-6xl great-vibes-regular my-2 drop-shadow-2xl textShadow">Dea & Wahyu</h1>
             <h2 class="text-lg  textShadow">Jumat, 28 Juni 2024</h2>
 
-            <div class="h-[60vh]"></div>
+            <div class="h-[50vh]"></div>
             
             <div class="mb-5">
                 <span class="text-md">Dear</span>
@@ -165,30 +165,30 @@
     </section>
 
 
-    <section class="w-full max-w-lg text-center h-screen relative grid place-items-center overflow-hidden relative">
+    <section id="main" class="w-full max-w-lg text-center h-screen relative grid place-items-center overflow-hidden relative">
         <div class=" h-full w-full">
             <div class="w-full h-[15vh] bg-gradient-to-b from-amber-700 to-white/0 absolute"></div>
             <div style="background-image: url('/img/cover/3.jpg')" class="w-full h-[45vh] bg-cover bg-no-repeat bg-bottom"></div>
 
-            <div class="text-center pt-10 bg-gradient-to-b from-amber-700 to-amber-100 h-full rounded-t-full  absolute w-[60vw] left-1/2 -translate-x-1/2 top-[39vh] z-20">
-                <h2 class="text-3xl font-semibold sacramento-regular textShadow">The Wedding of</h2>
-                <h1 class="text-6xl great-vibes-regular my-2 drop-shadow-2xl textShadow">Dea & Wahyu</h1>
+            <div class="text-center pt-14 bg-gradient-to-b from-amber-700 to-amber-100 h-full rounded-t-full  absolute w-[125%] left-1/2 -translate-x-1/2 top-[30%] z-20">
+                <h2 class="text-2xl font-semibold sacramento-regular textShadow">The Wedding of</h2>
+                <h1 class="text-5xl great-vibes-regular my-2 drop-shadow-2xl textShadow">Dea & Wahyu</h1>
                 <h2 class="text-lg  textShadow">Jumat, 28 Juni 2024</h2>
 
-                <div class="grid grid-cols-4 gap-5 w-full max-w-lg mt-16 mx-auto px-10">
-                    <div class="bg-amber-100 border-4 border-amber-800 h-20 grid place-items-center rounded-xl font-bold text-3xl freehand-regular">10</div>
-                    <div class="bg-amber-100 border-4 border-amber-800 h-20 grid place-items-center rounded-xl font-bold text-3xl freehand-regular">10</div>
-                    <div class="bg-amber-100 border-4 border-amber-800 h-20 grid place-items-center rounded-xl font-bold text-3xl freehand-regular">10</div>
-                    <div class="bg-amber-100 border-4 border-amber-800 h-20 grid place-items-center rounded-xl font-bold text-3xl freehand-regular">10</div>
+                <div class="grid grid-cols-4 gap-3 w-full max-w-lg mt-12 mx-auto px-14">
+                    <div class="bg-amber-100 border-2 border-amber-800 h-20 grid place-items-center rounded-xl font-bold text-3xl freehand-regular">10</div>
+                    <div class="bg-amber-100 border-2 border-amber-800 h-20 grid place-items-center rounded-xl font-bold text-3xl freehand-regular">10</div>
+                    <div class="bg-amber-100 border-2 border-amber-800 h-20 grid place-items-center rounded-xl font-bold text-3xl freehand-regular">10</div>
+                    <div class="bg-amber-100 border-2 border-amber-800 h-20 grid place-items-center rounded-xl font-bold text-3xl freehand-regular">10</div>
                 </div>
-                <div class="grid grid-cols-4 gap-5 w-full max-w-lg -mt-1 mx-auto px-10">
-                    <div class="bg-amber-100 border-4 border-amber-800 grid place-items-center rounded-xl text-lg sacramento-regular font-bold">Hari</div>
-                    <div class="bg-amber-100 border-4 border-amber-800 grid place-items-center rounded-xl text-lg sacramento-regular font-bold">Jam</div>
-                    <div class="bg-amber-100 border-4 border-amber-800 grid place-items-center rounded-xl text-lg sacramento-regular font-bold">Menit</div>
-                    <div class="bg-amber-100 border-4 border-amber-800 grid place-items-center rounded-xl text-lg sacramento-regular font-bold">Detik</div>
+                <div class="grid grid-cols-4 gap-3 w-full max-w-lg -mt-1 mx-auto px-14">
+                    <div class="bg-amber-100 border-2 border-amber-800 grid place-items-center rounded-xl text-lg sacramento-regular font-bold">Hari</div>
+                    <div class="bg-amber-100 border-2 border-amber-800 grid place-items-center rounded-xl text-lg sacramento-regular font-bold">Jam</div>
+                    <div class="bg-amber-100 border-2 border-amber-800 grid place-items-center rounded-xl text-lg sacramento-regular font-bold">Menit</div>
+                    <div class="bg-amber-100 border-2 border-amber-800 grid place-items-center rounded-xl text-lg sacramento-regular font-bold">Detik</div>
                 </div>
 
-                <div class="mt-16 w-fit mx-auto">
+                <div class="mt-12 w-fit mx-auto">
                     <a href="" 
                         class="flex mb-20 items-center space-x-2 text-white bg-orange-700 hover:bg-orange-800 focus:ring-4 focus:outline-none focus:ring-orange-300 border-2 font-medium rounded-3xl text-sm pl-5 pr-7 py-2.5 text-center">
                         
@@ -207,17 +207,23 @@
         </div>
     </section>
 
-    <section class="w-full max-w-lg h-[35vh] bg-gradient-to-br from-amber-200 to-amber-700">
-
+    <section class="w-full max-w-lg bg-gradient-to-br from-amber-200 to-amber-700 px-10 py-5">
+        <div class="w-full h-full bg-amber-50 rounded-lg text-center flex flex-col justify-center py-10 px-5 space-y-5">
+            <p class="text-2xl">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيْم</p>
+            <p class="text-sm">
+                “Dan di antara tanda-tanda (kebesaran)-Nya adalah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang.Sungguh pada yang demikian itu benar-benar terdapat tanda-tanda kebesaran Allah bagi kaum yang berpikir." 
+            </p>
+            <p class="text-md font-bold">- Q.S Ar-Rum : 21 -</p>
+        </div>
     </section>
 
-    <section class="w-full max-w-lg min-h-screen bg-gradient-to-r from-amber-100 to-amber-400 px-10 pb-20 pt-10">
+    <section class="w-full max-w-lg min-h-screen bg-gradient-to-r from-amber-100 to-amber-400 px-4 pb-20 pt-10">
             
             <div class="mb-5 text-center">
-                <h3 class="sacramento-regular text-5xl font-bold">
+                <h3 class="sacramento-regular text-4xl font-bold">
                     We Are Getting Married
                 </h3>
-                <p class="text-sm px-10 mt-3">
+                <p class="text-sm mt-3">
                     Assalamu’alaikum Wr. Wb. Dengan memohon rahmat dan ridho Allah Subhanahu Wa Ta’ala, InsyaaAllah kami akan menyelenggarakan acara pernikahan :
                 </p>
             </div>
@@ -242,17 +248,313 @@
                 </div>
                 <div>
                     <div class="w-56 h-56 rounded-full bg-amber-500 p-3 mx-auto">
-                        <div style="background-image: url('/img/profile/wahyu.jpg');" class="w-full h-full rounded-full bg-cover bg-center bg-no-repeat"></div>
+                        <div style="background-image: url('/img/profile/dea.jpg');" class="w-full h-full rounded-full bg-cover bg-center bg-no-repeat"></div>
                     </div>
                     <div class="text-center mt-3">
-                        <h2 class="great-vibes-regular text-amber-800 text-3xl">Sidik Wahyu Hidayat</h2>
+                        <h2 class="great-vibes-regular text-amber-800 text-3xl">Dea</h2>
                         <div class="mt-3">
-                            <p>Putra dari Bpk. Rasiman</p>
-                            <p>Dan Ibu Umi</p>
+                            <p>Putra dari Bpk. ...</p>
+                            <p>Dan Ibu ...</p>
                         </div>
                     </div>
                 </div>
             </div>
+    </section>
+
+    <section class="w-full max-w-lg bg-gradient-to-l from-amber-50 to-amber-200 px-2 pb-20 pt-10">
+            
+            <div class="mb-5 text-center">
+                <h3 class="great-vibes-regular text-4xl font-bold">
+                    Save The Date
+                </h3>
+            </div>
+
+            <div class="h-full w-full bg-amber-600 rounded-xl overflow-hidden pb-10 relative">
+                <div style="background-image: url('/img/cover/2.jpg')" class="h-56 bg-cover bg-no-repeat bg-center w-full"></div>
+                <div class="absolute left-0 top-0 h-56 w-full bg-gradient-to-t from-amber-600 via-amber-600/25 to-white/0 z-30"></div>
+                
+                <div class="px-5 pt-5 flex space-x-4">
+                    <div class="text-center flex-1">
+                        <p>Jumat</p>
+                        <div class="flex items-center">
+                            <div class="border-b flex-1 border-black"></div>
+                            <p class="font-bold text-5xl">27</p>
+                            <div class="border-b flex-1 border-black"></div>
+                        </div>
+                        <p class="font-bold">Juni 2024</p>
+                        <p>09:00 WIB</p>
+                        <hr class="border-black">
+                        <div class="mt-3">
+                            <p class="text-sm font-bold">Bertempat di:</p>
+                            <p class="text-sm">Kediaman Mempelai Perempuan Kabupaten Purbalingga Provinsi Jawa Tengah</p>
+                            <a href="" class="flex border w-fit pl-2.5 space-x-1 pr-3.5 py-1 rounded-lg items-center border-2 text-sm text-white bg-amber-700 hover:bg-amber-600 mt-2 mx-auto">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 mb-0.5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                                </svg>
+
+                                <span>Buka Lokasi</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="w-1/4 flex justify-center items-center border-l pl-2 border-black">
+                        <div class="-rotate-90 h-fit sacramento-regular text-5xl font-bold w-full relative">
+                            <div class="absolute w-[350%] text-center left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2">Akad Nikah</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+    </section>
+
+
+
+    <section class="w-full max-w-lg bg-gradient-to-r from-amber-50 to-amber-200 px-2 pb-20 pt-10">
+            
+            <div class="mb-5 text-center">
+                <h3 class="great-vibes-regular text-4xl font-bold">
+                    Location Maps
+                </h3>
+            </div>
+
+            <div class="h-full w-full bg-amber-600 rounded-xl overflow-hidden p-5 relative">
+                <div class="relative rounded-lg">
+                <iframe class="rounded-lg border-4 border-amber-200" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13744.69167288178!2d106.88626180586786!3d-6.365947168589222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1714958707747!5m2!1sid!2sid" width="450" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+            <div class="text-center py-10">
+                <a href="" class=" px-4 py-2 rounded bg-amber-600 font-bold text-amber-100 hover:bg-amber-500">Buka Lokasi</a>
+            </div>
+    </section>
+
+
+
+    <section class="w-full max-w-lg bg-gradient-to-br from-amber-200 to-amber-700 px-10 py-5">
+        <div class="w-full h-full bg-amber-50 rounded-lg text-center flex flex-col justify-center py-10 px-5 space-y-5">
+            <div class="text-2xl great-vibes-regular">Love Stories</div>
+            <p class="text-sm">
+                “Dan di antara tanda-tanda (kebesaran)-Nya adalah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang.Sungguh pada yang demikian itu benar-benar terdapat tanda-tanda kebesaran Allah bagi kaum yang berpikir." 
+            </p>
+        </div>
+    </section>
+
+
+    <section class="w-full max-w-lg bg-gradient-to-r from-amber-50 to-amber-200 px-2 pb-20 pt-10">
+            
+            <div class="mb-5 text-center">
+                <h3 class="great-vibes-regular text-4xl font-bold">
+                    Wedding Gift
+                </h3>
+                <p class="pt-5 px-6">
+                    Tanpa mengurangi rasa hormat, bagi Bapak/Ibu/Saudara/i yang ingin memberikan tanda kasih untuk kami, dapat melalui :
+                </p>
+            </div>
+
+            <div class="text-center py-8">
+                <button data-modal-target="progress-modal" data-modal-toggle="progress-modal" class=" px-4 py-2 rounded-lg border-2 border-amber-600 font-bold text-amber-700 shadow-xl hover:bg-amber-100">Tampilkan Rekening</button>
+            </div>
+
+            <div class="py-10">
+                <h1 class="text-5xl text-center font-bold">RSVP</h1>
+                <p class="text-center">
+                    Mohon Bapak/Ibu/Saudara/i dapat mengisi Konfirmasi Kehadiran di bawah ini :
+                </p>
+            </div>
+
+            <div class="pt-5 px-5 space-y-3">
+                <div>
+                    <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Nama Anda</label>
+                    <input type="text" name="name" id="name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" placeholder="Nama Anda" />
+                </div>
+                
+                <div>
+                    <label for="alamat" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Alamat Anda</label>
+                    <input type="text" name="alamat" id="alamat" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" placeholder="Alamat Anda" />
+                </div>
+
+                <div>
+                    <label for="jumlah" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Jumlah Tamu</label>
+                    <input type="number" name="jumlah" id="jumlah" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" placeholder="4" />
+                </div>
+                
+                <div class="space-y-2">
+                    <div class="flex items-start">
+                        <div class="flex items-center h-5">
+                            <input id="hadir" name="konfirmasi" type="radio" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-600 dark:border-gray-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800" required />
+                        </div>
+                        <label for="hadir" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Ya, Saya Bersedia Hadir</label>
+                    </div>
+                    <div class="flex items-start">
+                        <div class="flex items-center h-5">
+                            <input id="tidak" name="konfirmasi" type="radio" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-600 dark:border-gray-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800" required />
+                        </div>
+                        <label for="tidak" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Maaf, Saya Tidak Bisa Hadir</label>
+                    </div>
+                </div>
+
+                <div class="flex justify-center py-3">
+                    <button class="flex items-center space-x-2 px-4 py-2 rounded-lg border-2 border-amber-600 font-bold text-amber-700 shadow-xl hover:bg-amber-100">
+                       <span>Kirim Konfirmasi</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5" />
+                            </svg>
+                    </button>
+                </div>
+
+            </div>
+            
+            
+    </section>
+
+
+    <section class="w-full max-w-lg bg-gradient-to-br from-amber-200 to-amber-700 px-5 pt-8 pb-20">
+        <div class="text-center">
+            <h3 class="great-vibes-regular text-4xl font-bold">
+                Wedding Wishes
+            </h3>
+            <p>Berikan Ucapan Dan Doa Restu</p>
+        </div>
+
+        <div class="bg-amber-100 p-4 rounded-lg mt-5 space-y-3">
+
+            <div>
+                <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Nama Anda</label>
+                <input type="text" name="name" id="name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" placeholder="Nama Anda" />
+            </div>
+            
+            <div>
+                <label for="alamat" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Ucapan</label>
+                <textarea name="alamat" id="alamat" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"></textarea>
+            </div>
+
+            <div class="flex space-x-2">
+                <div class="flex items-start">
+                    <div class="flex items-center h-5">
+                        <input id="hadir" name="konfirmasi" type="radio" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-600 dark:border-gray-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800" required />
+                    </div>
+                    <label for="hadir" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Hadir</label>
+                </div>
+                <div class="flex items-start">
+                    <div class="flex items-center h-5">
+                        <input id="tidak" name="konfirmasi" type="radio" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-600 dark:border-gray-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800" required />
+                    </div>
+                    <label for="tidak" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Tidak Hadir</label>
+                </div>
+            </div>
+
+            <div class="flex justify-center py-3">
+                    <button class="flex items-center space-x-2 px-4 py-2 rounded-lg border-2 border-amber-600 font-bold text-amber-700 shadow-xl hover:bg-amber-100">
+                       <span>Kirim Ucapan</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5" />
+                            </svg>
+                    </button>
+                </div>
+
+            <div class=" pt-3 border-t border-amber-700  ">
+                
+                <div>
+                    <div class="flex space-x-2 items-start">
+                        <span class="great-vibes-regular text-5xl">"</span>
+                        <span class="text-sm font-bold">Nama Tamu</span>
+                        <span class="px-2 py-1 text-sm bg-amber-700 text-amber-100 rounded">Hadir</span>
+                    </div>
+                    <div class="flex text-sm space-x-1 items-center -mt-5 ml-5 mb-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                        </svg>
+                        <span class="text-xs underline">17 Jan 2024</span>
+                    </div>
+                    <div class="ml-5">
+                        <p class="text-sm">
+                            Happy wedding buat iky and calon suami, semoga acaranya lancar, khidmat, sawa dikaruniai keturunan yang Sholeh dan Sholehah, sementara lagi di luar kota (Bandung) jadi maaf kalau gak sempat hadir ya 🙏, next time ketemu buat ngafe and ngopi bareng😉
+                        </p>
+                    </div>
+                    <div class="border-b w-3/4 mx-auto my-3 border-amber-600"></div>
+                </div>
+
+
+                <div>
+                    <div class="flex space-x-2 items-start">
+                        <span class="great-vibes-regular text-5xl">"</span>
+                        <span class="text-sm font-bold">Nama Tamu</span>
+                        <span class="px-2 py-1 text-sm bg-amber-700 text-amber-100 rounded">Hadir</span>
+                    </div>
+                    <div class="flex text-sm space-x-1 items-center -mt-5 ml-5 mb-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                        </svg>
+                        <span class="text-xs underline">17 Jan 2024</span>
+                    </div>
+                    <div class="ml-5">
+                        <p class="text-sm">
+                            Happy wedding buat iky and calon suami, semoga acaranya lancar, khidmat, sawa dikaruniai keturunan yang Sholeh dan Sholehah, sementara lagi di luar kota (Bandung) jadi maaf kalau gak sempat hadir ya 🙏, next time ketemu buat ngafe and ngopi bareng😉
+                        </p>
+                    </div>
+                    <div class="border-b w-3/4 mx-auto my-3 border-amber-600"></div>
+                </div>
+
+
+                <div>
+                    <div class="flex space-x-2 items-start">
+                        <span class="great-vibes-regular text-5xl">"</span>
+                        <span class="text-sm font-bold">Nama Tamu</span>
+                        <span class="px-2 py-1 text-sm bg-amber-700 text-amber-100 rounded">Hadir</span>
+                    </div>
+                    <div class="flex text-sm space-x-1 items-center -mt-5 ml-5 mb-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                        </svg>
+                        <span class="text-xs underline">17 Jan 2024</span>
+                    </div>
+                    <div class="ml-5">
+                        <p class="text-sm">
+                            Happy wedding buat iky and calon suami, semoga acaranya lancar, khidmat, sawa dikaruniai keturunan yang Sholeh dan Sholehah, sementara lagi di luar kota (Bandung) jadi maaf kalau gak sempat hadir ya 🙏, next time ketemu buat ngafe and ngopi bareng😉
+                        </p>
+                    </div>
+                    <div class="border-b w-3/4 mx-auto my-3 border-amber-600"></div>
+                </div>
+
+                <div>
+                    <div class="flex space-x-2 items-start">
+                        <span class="great-vibes-regular text-5xl">"</span>
+                        <span class="text-sm font-bold">Nama Tamu</span>
+                        <span class="px-2 py-1 text-sm bg-amber-700 text-amber-100 rounded">Hadir</span>
+                    </div>
+                    <div class="flex text-sm space-x-1 items-center -mt-5 ml-5 mb-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                        </svg>
+                        <span class="text-xs underline">17 Jan 2024</span>
+                    </div>
+                    <div class="ml-5">
+                        <p class="text-sm">
+                            Happy wedding buat iky and calon suami, semoga acaranya lancar, khidmat, sawa dikaruniai keturunan yang Sholeh dan Sholehah, sementara lagi di luar kota (Bandung) jadi maaf kalau gak sempat hadir ya 🙏, next time ketemu buat ngafe and ngopi bareng😉
+                        </p>
+                    </div>
+                    <div class="border-b w-3/4 mx-auto my-3 border-amber-600"></div>
+                </div>
+
+                    
+
+                
+            </div>
+
+        </div>
+
+
+        <div class="text-center py-16">
+            <h3 class="great-vibes-regular text-4xl font-bold">
+                Wahyu & Dea
+            </h3>
+            <p>
+                Atas kehadiran dan doa restunya kami ucapkan terimakasih
+            </p>
+        </div>
+
+        
     </section>
 
 </main>
@@ -260,6 +562,185 @@
 
 
 
+<div id="progress-modal" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
+    <div class="relative p-4 w-full max-w-md max-h-full">
+        <!-- Modal content -->
+        <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+            <button type="button" class="absolute top-3 end-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-hide="progress-modal">
+                <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+                </svg>
+                <span class="sr-only">Close modal</span>
+            </button>
+            <div class="p-4 md:p-5">
+                <img class="w-1/2 mx-auto py-4" src="/img/rek/bca.png" alt="">
+                
+                <div class="w-full max-w-sm">
+
+                    <div class="flex items-center">
+                        <span class="flex-shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-sm font-medium text-center text-gray-900 bg-gray-100 border border-gray-300 rounded-s-lg dark:bg-gray-600 dark:text-white dark:border-gray-600">Norek</span>
+                        <div class="relative w-full">
+                            <input id="website-url" type="text" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-e-0 border-gray-300 text-gray-500 dark:text-gray-400 text-sm border-s-0 focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500" value="00770077007700" readonly disabled />
+                        </div>
+                        <button data-tooltip-target="tooltip-website-url" data-copy-to-clipboard-target="website-url" class="flex-shrink-0 z-10 inline-flex items-center py-3 px-4 text-sm font-medium text-center text-white bg-blue-700 rounded-e-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 border border-blue-700 dark:border-blue-600 hover:border-blue-800 dark:hover:border-blue-700" type="button">
+                            <span id="default-icon">
+                                <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 20">
+                                    <path d="M16 1h-3.278A1.992 1.992 0 0 0 11 0H7a1.993 1.993 0 0 0-1.722 1H2a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2Zm-3 14H5a1 1 0 0 1 0-2h8a1 1 0 0 1 0 2Zm0-4H5a1 1 0 0 1 0-2h8a1 1 0 1 1 0 2Zm0-5H5a1 1 0 0 1 0-2h2V2h4v2h2a1 1 0 1 1 0 2Z"/>
+                                </svg>
+                            </span>
+                            <span id="success-icon" class="hidden inline-flex items-center">
+                                <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5"/>
+                                </svg>
+                            </span>
+                        </button>
+                        <div id="tooltip-website-url" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+                            <span id="default-tooltip-message">Copy link</span>
+                            <span id="success-tooltip-message" class="hidden">Copied!</span>
+                            <div class="tooltip-arrow" data-popper-arrow></div>
+                        </div>
+                    </div>
+                    <p id="helper-text-explanation" class="mt-2 text-sm text-gray-500 dark:text-gray-400">An. ahdbahjd kasjdkjas</p>
+                </div>
+
+                <br>
+
+                <div class="flex items-center">
+                    <div class="flex-1 border-b border-amber-600 dark:border-amber-100"></div>
+                    <div class="px-3">or</div>
+                    <div class="flex-1 border-b border-amber-600 dark:border-amber-100"></div>
+                </div>
+
+
+                <img class="w-1/2 mx-auto py-4" src="/img/rek/bca.png" alt="">
+                                
+                <div class="w-full max-w-sm">
+
+                    <div class="flex items-center">
+                        <span class="flex-shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-sm font-medium text-center text-gray-900 bg-gray-100 border border-gray-300 rounded-s-lg dark:bg-gray-600 dark:text-white dark:border-gray-600">Norek</span>
+                        <div class="relative w-full">
+                            <input id="website-url22" type="text" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-e-0 border-gray-300 text-gray-500 dark:text-gray-400 text-sm border-s-0 focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500" value="1212121212121" readonly disabled />
+                        </div>
+                        <button data-tooltip-target="tooltip-website-url22" data-copy-to-clipboard-target="website-url22" class="flex-shrink-0 z-10 inline-flex items-center py-3 px-4 text-sm font-medium text-center text-white bg-blue-700 rounded-e-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 border border-blue-700 dark:border-blue-600 hover:border-blue-800 dark:hover:border-blue-700" type="button">
+                            <span id="default-icon">
+                                <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 20">
+                                    <path d="M16 1h-3.278A1.992 1.992 0 0 0 11 0H7a1.993 1.993 0 0 0-1.722 1H2a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2Zm-3 14H5a1 1 0 0 1 0-2h8a1 1 0 0 1 0 2Zm0-4H5a1 1 0 0 1 0-2h8a1 1 0 1 1 0 2Zm0-5H5a1 1 0 0 1 0-2h2V2h4v2h2a1 1 0 1 1 0 2Z"/>
+                                </svg>
+                            </span>
+                            <span id="success-icon" class="hidden inline-flex items-center">
+                                <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5"/>
+                                </svg>
+                            </span>
+                        </button>
+                        <div id="tooltip-website-url22" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+                            <span id="default-tooltip-message">Copy link</span>
+                            <span id="success-tooltip-message" class="hidden">Copied!</span>
+                            <div class="tooltip-arrow" data-popper-arrow></div>
+                        </div>
+                    </div>
+                    <p id="helper-text-explanation" class="mt-2 text-sm text-gray-500 dark:text-gray-400">An. ashfbhab ajhdb</p>
+                </div>
+
+
+                <div class="flex items-center my-4">
+                    <div class="flex-1 border-b border-amber-600 dark:border-amber-100"></div>
+                    <div class="px-3">or</div>
+                    <div class="flex-1 border-b border-amber-600 dark:border-amber-100"></div>
+                </div>
+
+
+                <div class="mt-5 mb-2 text-center">
+                    <p>Kirim Hadiah</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-14 h-14 mx-auto">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 11.25v8.25a1.5 1.5 0 0 1-1.5 1.5H5.25a1.5 1.5 0 0 1-1.5-1.5v-8.25M12 4.875A2.625 2.625 0 1 0 9.375 7.5H12m0-2.625V7.5m0-2.625A2.625 2.625 0 1 1 14.625 7.5H12m0 0V21m-8.625-9.75h18c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125h-18c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125Z" />
+                    </svg>
+                </div>
+                                
+                <div class="w-full max-w-sm">
+
+                    <div class="flex items-center">
+                        <span class="flex-shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-sm font-medium text-center text-gray-900 bg-gray-100 border border-gray-300 rounded-s-lg dark:bg-gray-600 dark:text-white dark:border-gray-600">Alamat</span>
+                        <div class="relative w-full">
+                            <input id="alamat-url22" type="text" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-e-0 border-gray-300 text-gray-500 dark:text-gray-400 text-sm border-s-0 focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500" value="Jl Nasnajshaj jhdbajhsd asjhdbjahs " readonly disabled />
+                        </div>
+                        <button data-tooltip-target="tooltip-alamat-url22" data-copy-to-clipboard-target="alamat-url22" class="flex-shrink-0 z-10 inline-flex items-center py-3 px-4 text-sm font-medium text-center text-white bg-blue-700 rounded-e-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 border border-blue-700 dark:border-blue-600 hover:border-blue-800 dark:hover:border-blue-700" type="button">
+                            <span id="default-icon">
+                                <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 20">
+                                    <path d="M16 1h-3.278A1.992 1.992 0 0 0 11 0H7a1.993 1.993 0 0 0-1.722 1H2a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2Zm-3 14H5a1 1 0 0 1 0-2h8a1 1 0 0 1 0 2Zm0-4H5a1 1 0 0 1 0-2h8a1 1 0 1 1 0 2Zm0-5H5a1 1 0 0 1 0-2h2V2h4v2h2a1 1 0 1 1 0 2Z"/>
+                                </svg>
+                            </span>
+                            <span id="success-icon" class="hidden inline-flex items-center">
+                                <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5"/>
+                                </svg>
+                            </span>
+                        </button>
+                        <div id="tooltip-alamat-url22" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+                            <span id="default-tooltip-message">Copy link</span>
+                            <span id="success-tooltip-message" class="hidden">Copied!</span>
+                            <div class="tooltip-arrow" data-popper-arrow></div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+
+                <!-- Modal footer -->
+                <div class="flex items-center justify-center mt-8 space-x-4 rtl:space-x-reverse">
+                    <button data-modal-hide="progress-modal" data-modal-target="authentication-modal" data-modal-toggle="authentication-modal" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Konfirmasi Lewat WhatsApp</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="authentication-modal" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
+    <div class="relative p-4 w-full max-w-md max-h-full">
+        <!-- Modal content -->
+        <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+            <!-- Modal header -->
+            <div class="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600">
+                <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
+                    Konfirmasi Transfer
+                </h3>
+                <button type="button" class="end-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-hide="authentication-modal">
+                    <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+                    </svg>
+                    <span class="sr-only">Close modal</span>
+                </button>
+            </div>
+            <!-- Modal body -->
+            <div class="p-4 md:p-5">
+                <form class="space-y-4" action="#">
+                    <div>
+                        <input type="text" name="nama" id="nama" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" placeholder="Nama Anda" />
+                    </div>
+                    <div>
+                        <input type="text" name="nominal" id="nominal" placeholder="Nominal Transfer" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" />
+                    </div>
+                    <div class="">
+                        <div class="flex items-start">
+                            <div class="flex items-center h-5">
+                                <input id="via-1" name="via" type="radio" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-600 dark:border-gray-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800" required />
+                            </div>
+                            <label for="via-1" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">BCA</label>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="flex items-center h-5">
+                                <input id="via-2" name="via" type="radio" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-600 dark:border-gray-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800" required />
+                            </div>
+                            <label for="via-2" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">BRI</label>
+                        </div>
+                    </div>
+                    <button type="submit" class="w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Konfirmasi Lewat WhatsApp</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <!-- BOOTOM NAVIGATION -->
