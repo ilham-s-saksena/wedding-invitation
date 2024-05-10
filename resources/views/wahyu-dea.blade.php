@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Wahyu & Dea</title>
+        <title>Sidik & Dea</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -15,7 +15,7 @@
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Freehand&family=Great+Vibes&family=Sacramento&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Freehand&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Great+Vibes&family=Sacramento&display=swap" rel="stylesheet">
 
 
         <style>
@@ -24,6 +24,13 @@
 
             font-style: normal;
             }
+
+            .playfair-display {
+            font-family: "Playfair Display", serif;
+            font-weight: 800;
+            font-style: normal;
+            }
+
 
             .great-vibes-regular {
             font-family: "Great Vibes", cursive;
@@ -45,6 +52,9 @@
 
     <body class="font-sans antialiased overflow-hidden">
 
+    @php
+    $tanggal = \Illuminate\Support\Carbon::createFromDate(2024, 6, 27)->format('Y-m-d');
+    @endphp
 
 
 <!-- drawer init and toggle -->
@@ -90,15 +100,15 @@
         
         <div class="z-50">
             <h2 class="text-3xl font-semibold sacramento-regular textShadow">The Wedding of</h2>
-            <h1 class="text-6xl great-vibes-regular my-2 drop-shadow-2xl textShadow">Dea & Wahyu</h1>
-            <h2 class="text-lg  textShadow">Jumat, 28 Juni 2024</h2>
+            <h1 class="text-6xl playfair-display mb-2 drop-shadow-2xl textShadow">Dea & Sidik</h1>
+            <h2 class="text-lg  textShadow">Kamis, 27 Juni 2024</h2>
 
             <div class="h-[50vh]"></div>
             
             <div class="mb-5">
                 <span class="text-lg font-light">Dear :</span>
                 <div class="w-1/2 px-2 py-4 bg-primary-400 border-4 border-amber-700 rounded-2xl mx-auto">
-                    <p class="text-xl font-semibold">Nama Tamu</p>
+                    <p class="text-xl font-semibold">{{ $tamu }}</p>
                 </div>
             </div>
             <div class="flex items-center justify-center border-gray-200 ">
@@ -151,15 +161,15 @@
         
         <div class="z-40">
             <h2 class="text-xl font-semibold sacramento-regular textShadow">The Wedding of</h2>
-            <h1 class="text-5xl great-vibes-regular my-2 drop-shadow-2xl textShadow">Dea & Wahyu</h1>
-            <h2 class="text-md  textShadow">Jumat, 28 Juni 2024</h2>
+            <h1 class="text-5xl playfair-display mb-2 drop-shadow-2xl textShadow">Dea & Sidik</h1>
+            <h2 class="text-md  textShadow">Kamis, 27 Juni 2024</h2>
 
             <div class="h-[61vh]"></div>
             
             <div class="mb-5">
                 <span class="text-lg font-light">Dear :</span>
                 <div class="w-2/3 px-2 py-4 bg-primary-400 border-4 border-amber-700 rounded-2xl mx-auto">
-                    <p class="text-lg font-semibold">Nama Tamu</p>
+                    <p class="text-lg font-semibold">{{ $tamu }}</p>
                 </div>
             </div>
             
@@ -175,14 +185,14 @@
 
             <div class="text-center pt-14 bg-gradient-to-b from-primary-500 to-primary-100 h-full rounded-t-full  absolute w-[125%] left-1/2 -translate-x-1/2 top-[30%] z-20">
                 <h2 class="text-2xl font-semibold sacramento-regular textShadow">The Wedding of</h2>
-                <h1 class="text-5xl great-vibes-regular my-2 drop-shadow-2xl textShadow">Dea & Wahyu</h1>
-                <h2 class="text-lg  textShadow">Jumat, 28 Juni 2024</h2>
+                <h1 class="text-5xl playfair-display my-2 drop-shadow-2xl textShadow">Dea & Sidik</h1>
+                <h2 class="text-lg  textShadow">Kamis, 27 Juni 2024</h2>
 
-                <div class="grid grid-cols-4 gap-3 w-full max-w-lg mt-12 mx-auto px-14">
-                    <div class="bg-primary-100 border-2 border-primary-800 h-20 grid place-items-center rounded-xl font-bold text-3xl">10</div>
-                    <div class="bg-primary-100 border-2 border-primary-800 h-20 grid place-items-center rounded-xl font-bold text-3xl">10</div>
-                    <div class="bg-primary-100 border-2 border-primary-800 h-20 grid place-items-center rounded-xl font-bold text-3xl">10</div>
-                    <div class="bg-primary-100 border-2 border-primary-800 h-20 grid place-items-center rounded-xl font-bold text-3xl">10</div>
+                <div class="grid grid-cols-4 gap-3 w-full max-w-lg mt-12 mx-auto px-14" id="countdown">
+                    <div class="bg-primary-100 border-2 border-primary-800 h-20 grid place-items-center rounded-xl font-bold text-3xl" id="days">0</div>
+                    <div class="bg-primary-100 border-2 border-primary-800 h-20 grid place-items-center rounded-xl font-bold text-3xl" id="hours">0</div>
+                    <div class="bg-primary-100 border-2 border-primary-800 h-20 grid place-items-center rounded-xl font-bold text-3xl" id="minutes">0</div>
+                    <div class="bg-primary-100 border-2 border-primary-800 h-20 grid place-items-center rounded-xl font-bold text-3xl" id="seconds">0</div>
                 </div>
                 <div class="grid grid-cols-4 gap-3 w-full max-w-lg -mt-1 mx-auto px-14">
                     <div class="bg-primary-100 border-2 border-primary-800 grid place-items-center rounded-xl text-lg font-medium">Hari</div>
@@ -237,7 +247,7 @@
                         <div style="background-image: url('/img/profile/wahyu.jpg');" class="w-full h-full rounded-full bg-cover bg-center bg-no-repeat"></div>
                     </div>
                     <div class="text-center mt-3">
-                        <h2 class="great-vibes-regular text-primary-800 text-3xl">Sidik Wahyu Hidayat</h2>
+                        <h2 class="great-vibes-regular text-black text-3xl">Sidik Sidik Hidayat</h2>
                         <div class="mt-1 text-sm font-medium">
                             <p>Putra dari Bapak Rasiman</p>
                             <p>Dan Ibu Umi</p>
@@ -254,7 +264,7 @@
                         <div style="background-image: url('/img/profile/dea.jpg');" class="w-full h-full rounded-full bg-cover bg-center bg-no-repeat"></div>
                     </div>
                     <div class="text-center mt-3">
-                        <h2 class="great-vibes-regular text-primary-800 text-3xl">Dea Fitriani Sabila</h2>
+                        <h2 class="great-vibes-regular text-black text-3xl">Dea Fitriani Sabila</h2>
                         <div class="mt-1 text-sm font-medium">
                             <p>Putra dari Bapak Suratno</p>
                             <p>Dan Ibu Lenny Witiastuti A.Md</p>
@@ -346,7 +356,7 @@
 
     <section class="w-full max-w-lg bg-gradient-to-r from-primary-50 to-primary-200 px-2 pb-20 pt-10 mx-auto">
             
-            <div class="mb-5 text-center">
+            <div class="mb-5 text-center">{{ $tamu }}
                 <h3 class="great-vibes-regular text-4xl font-bold">
                     Wedding Gift
                 </h3>
@@ -383,7 +393,7 @@
             <div class="pt-5 px-5 space-y-3">
                 <div>
                     <label for="name" class="block mb-2 text-sm font-medium text-gray-900">Nama Anda</label>
-                    <input type="text" name="name" id="name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Nama Anda" />
+                    <input type="text" name="name" id="name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="{{ $tamu }}" value="{{ $tamu }}" />
                 </div>
                 
                 <div>
@@ -438,12 +448,12 @@
 
             <div>
                 <label for="name" class="block mb-2 text-sm font-medium text-gray-900">Nama Anda</label>
-                <input type="text" name="name" id="name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Nama Anda" />
+                <input type="text" name="name" id="name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="{{ $tamu }}" value="{{ $tamu }}" />
             </div>
             
             <div>
                 <label for="alamat" class="block mb-2 text-sm font-medium text-gray-900">Ucapan</label>
-                <textarea name="alamat" id="alamat" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"></textarea>
+                <textarea name="alamat" id="alamat" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Ucapan anda ..."></textarea>
             </div>
 
             <div class="flex space-x-2">
@@ -475,7 +485,7 @@
                 <div>
                     <div class="flex space-x-2 items-start">
                         <span class="great-vibes-regular text-5xl">"</span>
-                        <span class="text-sm font-bold">Nama Tamu</span>
+                        <span class="text-sm font-bold">{{ $tamu }}</span>
                         <span class="px-2 py-1 text-sm bg-primary-700 text-primary-100 rounded">Hadir</span>
                     </div>
                     <div class="flex text-sm space-x-1 items-center -mt-5 ml-5 mb-1">
@@ -496,7 +506,7 @@
                 <div>
                     <div class="flex space-x-2 items-start">
                         <span class="great-vibes-regular text-5xl">"</span>
-                        <span class="text-sm font-bold">Nama Tamu</span>
+                        <span class="text-sm font-bold">{{ $tamu }}</span>
                         <span class="px-2 py-1 text-sm bg-primary-700 text-primary-100 rounded">Hadir</span>
                     </div>
                     <div class="flex text-sm space-x-1 items-center -mt-5 ml-5 mb-1">
@@ -517,7 +527,7 @@
                 <div>
                     <div class="flex space-x-2 items-start">
                         <span class="great-vibes-regular text-5xl">"</span>
-                        <span class="text-sm font-bold">Nama Tamu</span>
+                        <span class="text-sm font-bold">{{ $tamu }}</span>
                         <span class="px-2 py-1 text-sm bg-primary-700 text-primary-100 rounded">Hadir</span>
                     </div>
                     <div class="flex text-sm space-x-1 items-center -mt-5 ml-5 mb-1">
@@ -537,7 +547,7 @@
                 <div>
                     <div class="flex space-x-2 items-start">
                         <span class="great-vibes-regular text-5xl">"</span>
-                        <span class="text-sm font-bold">Nama Tamu</span>
+                        <span class="text-sm font-bold">{{ $tamu }}</span>
                         <span class="px-2 py-1 text-sm bg-primary-700 text-primary-100 rounded">Hadir</span>
                     </div>
                     <div class="flex text-sm space-x-1 items-center -mt-5 ml-5 mb-1">
@@ -564,7 +574,7 @@
 
         <div class="text-center py-16">
             <h3 class="great-vibes-regular text-4xl font-bold">
-                Wahyu & Dea
+                Sidik & Dea
             </h3>
             <p>
                 Atas kehadiran dan doa restunya kami ucapkan terimakasih
@@ -619,7 +629,7 @@
                             <div class="tooltip-arrow" data-popper-arrow></div>
                         </div>
                     </div>
-                    <p id="helper-text-explanation" class="mt-2 ml-2 text-sm text-gray-500 ">An. SIDIK WAHYU HIDAYAT</p>
+                    <p id="helper-text-explanation" class="mt-2 ml-2 text-sm text-gray-500 ">An. SIDIK Sidik HIDAYAT</p>
                 </div>
             </div>
 
@@ -738,7 +748,7 @@
             <div class="p-4 md:p-5">
                 <form class="space-y-4" action="#">
                     <div>
-                        <input type="text" name="nama" id="nama" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5" placeholder="Nama Anda" />
+                        <input type="text" name="nama" id="nama" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5" placeholder="{{ $tamu }}" value="{{ $tamu }}" />
                     </div>
                     <div>
                         <input type="text" name="nominal" id="nominal" placeholder="Nominal Transfer" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5" />
@@ -836,6 +846,38 @@
 </div>
 
 
+<script>
+    // Tanggal target (27 Juni 2024)
+    var targetDate = new Date("June 27, 2024 00:00:00").getTime();
+
+    // Memperbarui hitung mundur setiap detik
+    var x = setInterval(function() {
+
+        // Waktu sekarang
+        var now = new Date().getTime();
+
+        // Jarak antara sekarang dan tanggal target
+        var distance = targetDate - now;
+
+        // Menghitung hari, jam, menit, dan detik
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Menampilkan hasil di elemen HTML yang sesuai
+        document.getElementById("days").innerHTML = days;
+        document.getElementById("hours").innerHTML = hours;
+        document.getElementById("minutes").innerHTML = minutes;
+        document.getElementById("seconds").innerHTML = seconds;
+
+        // Jika hitung mundur sudah berakhir, tampilkan pesan
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("countdown").innerHTML = "Waktu sudah berakhir!";
+        }
+    }, 1000);
+</script>
                 
     </body>
 </html>
