@@ -2,17 +2,13 @@
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
+use App\Http\Controllers\UcapanController;
 
 Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/Wahyu-and-Dea', function (Request $request) {
-    $tamu = $request->input('to');
+Route::get('/Dea-and-Sidik', [UcapanController::class, 'dea_sidik']);
+Route::get('/Sidik-and-Dea', [UcapanController::class, 'sidik_dea']);
 
-    if(is_null($tamu)){
-        return view('welcome');
-    } else {
-        return view('wahyu-dea', ['tamu' => $tamu]);
-    }
-});
+Route::post('/ucapan', [UcapanController::class, 'store']);
