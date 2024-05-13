@@ -21,10 +21,15 @@ class UcapanController extends Controller
         } else {
             return view('dea-sidik', 
             [
+                'tempat' => 'Kediaman Mempelai Perempuan di Damartoharjo, Kalitinggar, Kec. Padamara, Kabupaten Purbalingga, Jawa Tengah',
+                'hari' => 'Kamis',
+                'tanggal' => '27',
+                'acara' => 'Akad Nikah',
                 'tamu' => $tamu,
                 'nama1' => 'Dea',
                 'nama2' => 'Sidik',
                 'ucapan' => $ucapan,
+                'maps' => 'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3232.5181112744426!2d109.3076510221811!3d-7.379070284168603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwMjInNDQuNSJTIDEwOcKwMTgnMjQuOSJF!5e0!3m2!1sid!2sid!4v1715584962004!5m2!1sid!2sid'
             ]
         );
         }
@@ -41,10 +46,15 @@ class UcapanController extends Controller
         } else {
             return view('sidik-dea', 
             [
+                'tempat' => 'Kediaman Mempelai Pria di III, Sikapat, Kec. Sumbang, Kabupaten Banyumas, Jawa Tengah',
+                'tanggal' => '25 - 26',
+                'hari' => 'Selasa - Rabu',
+                'acara' => 'Tasyakuran',
                 'ucapan' => $ucapan,
                 'tamu' => $tamu,
                 'nama2' => 'Dea',
-                'nama1' => 'Sidik'
+                'nama1' => 'Sidik',
+                'maps' => 'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1762.6799864803168!2d109.2798014514764!3d-7.3446137943579695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwMjAnMzkuMyJTIDEwOcKwMTYnNDcuNSJF!5e0!3m2!1sid!2sid!4v1715584872482!5m2!1sid!2sid'
             ]
         );
         }

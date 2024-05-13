@@ -25,7 +25,7 @@
                         <div style="background-image: url('/img/profile/wahyu.webp');" class="w-full h-full rounded-full bg-cover bg-center bg-no-repeat"></div>
                     </div>
                     <div class="text-center mt-3">
-                        <h2 class="great-vibes-regular text-black text-3xl">Sidik Sidik Hidayat</h2>
+                        <h2 class="great-vibes-regular text-black text-3xl">Sidik Wahyu Hidayat</h2>
                         <div class="mt-1 text-sm font-medium">
                             <p>Putra dari Bapak Rasiman</p>
                             <p>Dan Ibu Umi</p>

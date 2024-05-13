@@ -5,8 +5,8 @@
 
             <div class="text-center pt-14 bg-gradient-to-b from-primary-500 to-primary-100 h-full rounded-t-full  absolute w-[125%] left-1/2 -translate-x-1/2 top-[30%] z-20">
                 <h2 class="text-2xl font-semibold sacramento-regular textShadow">The Wedding of</h2>
-                <h1 class="text-5xl playfair-display my-2 drop-shadow-2xl textShadow">Dea & Sidik</h1>
-                <h2 class="text-lg  textShadow">Kamis, 27 Juni 2024</h2>
+                <h1 class="text-5xl playfair-display my-2 drop-shadow-2xl textShadow">{{$nama1}} & {{$nama2}}</h1>
+                <h2 class="text-lg  textShadow">{{$hari}}, {{ $tanggal }} Juni 2024</h2>
 
                 <div class="grid grid-cols-4 gap-3 w-full max-w-lg mt-12 mx-auto px-14" id="countdown">
                     <div class="bg-primary-100 border-2 border-primary-800 h-20 grid place-items-center rounded-xl font-bold text-3xl" id="days">0</div>
@@ -22,7 +22,7 @@
                 </div>
 
                 <div class="mt-12 w-fit mx-auto">
-                    <a href="" 
+                    <a href="https://www.google.com/calendar/render?action=TEMPLATE&text=The+wedding+of+%7C+Sidik+%26+Dea&details=%3Cp%3ETerima+Kasih+telah+membarikan+doa+dan+restu+dalam+acara+pernikahan+kami%3C%2Fp%3E&dates=20240627T070000Z%2F20240627T100000Z&ctz=Asia/Jakarta" 
                         class="flex mb-20 items-center space-x-2 text-white bg-orange-700 hover:bg-orange-800 focus:ring-4 focus:outline-none focus:ring-orange-300 border-2 font-medium rounded-3xl text-sm pl-5 pr-7 py-2.5 text-center">
                         
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">

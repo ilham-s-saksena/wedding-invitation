@@ -13,8 +13,8 @@
         
         <div class="z-40">
             <h2 class="text-xl font-semibold sacramento-regular textShadow">The Wedding of</h2>
-            <h1 class="text-5xl playfair-display mb-2 drop-shadow-2xl textShadow">Dea & Sidik</h1>
-            <h2 class="text-md  textShadow">Kamis, 27 Juni 2024</h2>
+            <h1 class="text-5xl playfair-display mb-2 drop-shadow-2xl textShadow">{{$nama1}} & {{$nama2}}</h1>
+            <h2 class="text-md  textShadow">{{$hari}}, {{$tanggal}} Juni 2024</h2>
 
             <div class="h-[61vh]"></div>
             

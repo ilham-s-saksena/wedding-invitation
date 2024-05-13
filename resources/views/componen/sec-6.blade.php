@@ -76,15 +76,44 @@
                 </div>
 
                 <div class="flex justify-center py-3">
-                    <button class="flex items-center space-x-2 px-4 py-2 rounded-lg border-2 border-primary-600 font-bold text-primary-900 shadow-xl hover:bg-primary-100">
+                    <a id="send_confirmation" href="#" target="_blank" class="flex items-center space-x-2 px-4 py-2 rounded-lg border-2 border-primary-600 font-bold text-primary-900 shadow-xl hover:bg-primary-100">
                        <span>Kirim Konfirmasi</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5" />
                             </svg>
-                    </button>
+                    </a>
                 </div>
 
             </div>
             
             
     </section>
+
+
+<script>
+    // Ambil referensi elemen-elemen input
+    var nameInput = document.getElementById("name");
+    var alamatInput = document.getElementById("alamat");
+    var jumlahInput = document.getElementById("jumlah");
+    var hadirInput = document.getElementById("hadir");
+    var tidakInput = document.getElementById("tidak");
+    // Ganti URL ketika nilai input berubah
+    nameInput.addEventListener("input", updateUrl);
+    alamatInput.addEventListener("input", updateUrl);
+    jumlahInput.addEventListener("input", updateUrl);
+    hadirInput.addEventListener("input", updateUrl);
+    tidakInput.addEventListener("input", updateUrl);
+
+    function updateUrl() {
+        var name = nameInput.value.trim();
+        var alamat = alamatInput.value.trim();
+        var jumlah = jumlahInput.value.trim();
+        var hadir = hadirInput.value.trim();
+        var tidak = tidakInput.value.trim();
+        // Bangun URL berdasarkan input pengguna
+        var url = "https://wa.me/6281225145161?text=";
+        url += encodeURIComponent("Dengan penuh kebahagiaan,\nkami merespons undangan pernikahan yang disampaikan dengan penuh kasih oleh {{ $nama1 }}.\n\nKami, " + name + " dan segenap keluarga dengan jumlah " + jumlah + ", dari "+ alamat +", dengan rendah hati akan hadir dalam momen bersejarah ini. Kami berdoa semoga cinta dan kebahagiaan senantiasa menyertai langkah kalian.,\ndan kami tak sabar untuk bersama-sama merayakan kebahagiaan ini di {{ $tempat }}.\n\nTerima kasih atas kehormatan yang diberikan melalui undangan ini");
+        // Tetapkan URL baru ke href
+        document.getElementById("send_confirmation").href = url;
+    }
+</script>
