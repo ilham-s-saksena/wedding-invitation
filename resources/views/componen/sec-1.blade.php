@@ -18,9 +18,9 @@
 
             <div class="h-[61vh]"></div>
             
-            <div class="mb-5">
-                <span class="text-lg font-light">Dear :</span>
-                <div class="w-2/3 px-2 py-4 bg-primary-400 border-4 border-amber-700 rounded-2xl mx-auto">
+            <div class="mb-5 w-full">
+                <div class="w-2/3 px-2 py-4 bg-primary-400 border-4 border-amber-700 rounded-3xl mx-auto">
+                    <span class="text-md font-light">Dear :</span>
                     <p class="text-lg font-semibold">{{ $tamu }}</p>
                 </div>
             </div>

@@ -13,6 +13,6 @@
             </div>
 
             <div class="text-center py-10">
-                <a href="{{ $maps }}" target="_blank" class=" px-4 py-2 rounded bg-primary-600 font-bold text-primary-100 hover:bg-primary-500">Buka Lokasi</a>
+                <a href="{{ $button }}" target="_blank" class=" px-4 py-2 rounded bg-primary-600 font-bold text-primary-100 hover:bg-primary-500">Buka Lokasi</a>
             </div>
     </section>
