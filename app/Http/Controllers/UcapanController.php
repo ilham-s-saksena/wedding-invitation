@@ -22,8 +22,8 @@ class UcapanController extends Controller
             return view('dea-sidik', 
             [
                 'tempat' => 'Kediaman Mempelai Perempuan di Damartoharjo, Kalitinggar, Kec. Padamara, Kabupaten Purbalingga, Jawa Tengah',
-                'hari' => 'Kamis',
-                'tanggal' => '27',
+                'hari' => 'Rabu - Kamis',
+                'tanggal' => '26 - 27',
                 'acara' => 'Akad Nikah',
                 'tamu' => $tamu,
                 'nama1' => 'Dea',
