@@ -40,7 +40,7 @@
                             <div class="tooltip-arrow" data-popper-arrow></div>
                         </div>
                     </div>
-                    <p id="helper-text-explanation" class="mt-2 ml-2 text-sm text-gray-500 ">An. SIDIK Sidik HIDAYAT</p>
+                    <p id="helper-text-explanation" class="mt-2 ml-2 text-sm text-gray-500 ">An. SIDIK WAHYU HIDAYAT</p>
                 </div>
             </div>
 
