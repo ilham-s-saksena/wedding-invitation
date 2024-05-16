@@ -8,7 +8,7 @@
     </section>
 
 
-    <section class="w-full max-w-lg bg-gradient-to-r from-primary-50 to-primary-200 px-2 pb-20 pt-10 mx-auto">
+    <section id="wallet" class="w-full max-w-lg bg-gradient-to-r from-primary-50 to-primary-200 px-2 pb-20 pt-10 mx-auto">
             
             <div class="mb-5 text-center">{{ $tamu }}
                 <h3 class="great-vibes-regular text-4xl font-bold">

@@ -1,4 +1,4 @@
-<section class="w-full max-w-lg bg-gradient-to-br from-primary-200 to-primary-700 px-10 py-5 mx-auto">
+<section id="" class="w-full max-w-lg bg-gradient-to-br from-primary-200 to-primary-700 px-10 py-5 mx-auto">
         <div class="w-full h-full bg-primary-50 rounded-lg text-center flex flex-col justify-center py-10 px-5 space-y-5">
             <p class="text-2xl">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيْم</p>
             <p class="text-sm">
@@ -8,7 +8,7 @@
         </div>
     </section>
 
-    <section class="w-full max-w-lg min-h-screen bg-gradient-to-r from-primary-300 to-primary-800 px-4 pb-20 pt-10 mx-auto">
+    <section id="savedate" class="w-full max-w-lg min-h-screen bg-gradient-to-r from-primary-300 to-primary-800 px-4 pb-20 pt-10 mx-auto">
             
             <div class="mb-5 text-center">
                 <h3 class="sacramento-regular text-4xl font-bold">
