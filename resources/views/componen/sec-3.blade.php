@@ -22,7 +22,7 @@
             <div class="h-full w-full bg-primary-50 rounded-full text-center flex flex-col justify-center py-10">
                 <div>
                     <div class="w-56 h-56 rounded-full bg-primary-500 p-3 mx-auto">
-                        <div style="background-image: url('/img/profile/wahyu.webp');" class="w-full h-full rounded-full bg-cover bg-center bg-no-repeat"></div>
+                        <div style="background-image: url('/img/profile/wahyu(1).webp');" class="w-full h-full rounded-full bg-cover bg-center bg-no-repeat"></div>
                     </div>
                     <div class="text-center mt-3">
                         <h2 class="great-vibes-regular text-black text-3xl">Sidik Wahyu Hidayat</h2>
@@ -39,7 +39,7 @@
                 </div>
                 <div>
                     <div class="w-56 h-56 rounded-full bg-primary-500 p-3 mx-auto">
-                        <div style="background-image: url('/img/profile/dea.webp');" class="w-full h-full rounded-full bg-cover bg-center bg-no-repeat"></div>
+                        <div style="background-image: url('/img/profile/dea(1).webp');" class="w-full h-full rounded-full bg-cover bg-center bg-no-repeat"></div>
                     </div>
                     <div class="text-center mt-3">
                         <h2 class="great-vibes-regular text-black text-3xl">Dea Fitriani Sabila</h2>

@@ -1,7 +1,7 @@
 <section id="main" class="w-full max-w-lg text-center h-screen relative grid place-items-center overflow-hidden relative mx-auto">
         <div class=" h-full w-full">
             <div class="w-full h-[15vh] bg-gradient-to-b from-primary-600 via-white/0 to-white/0 absolute"></div>
-            <div style="background-image: url('/img/cover/2.webp')" class="w-full h-[45vh] bg-cover bg-no-repeat bg-bottom"></div>
+            <div style="background-image: url('/img/cover/2(1).webp')" class="w-full h-[45vh] bg-cover bg-no-repeat bg-bottom"></div>
 
             <div class="text-center pt-14 bg-gradient-to-b from-primary-500 to-primary-100 h-full rounded-t-full  absolute w-[125%] left-1/2 -translate-x-1/2 top-[30%] z-20">
                 <h2 class="text-2xl font-semibold sacramento-regular textShadow">The Wedding of</h2>

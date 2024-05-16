@@ -15,15 +15,15 @@
             <div class="relative h-screen overflow-hidden">
                 <!-- Item 1 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <div style="background-image: url('/img/cover/1.webp')" class="h-[80vh] absolute top-0 left-0 w-full bg-cover bg-center bg-no-repeat"></div>
+                    <div style="background-image: url('/img/cover/1(1).webp')" class="h-[80vh] absolute top-0 left-0 w-full bg-cover bg-center bg-no-repeat"></div>
                 </div>
                 <!-- Item 2 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <div style="background-image: url('/img/cover/2.webp')" class="h-[80vh] absolute top-0 left-0 w-full bg-cover bg-center bg-no-repeat"></div>
+                    <div style="background-image: url('/img/cover/2(1).webp')" class="h-[80vh] absolute top-0 left-0 w-full bg-cover bg-center bg-no-repeat"></div>
                 </div>
                 <!-- Item 3 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <div style="background-image: url('/img/cover/3.webp')" class="h-[80vh] absolute top-0 left-0 w-full bg-cover bg-center bg-no-repeat"></div>
+                    <div style="background-image: url('/img/cover/3(1).webp')" class="h-[80vh] absolute top-0 left-0 w-full bg-cover bg-center bg-no-repeat"></div>
                 </div>
                 
             </div>

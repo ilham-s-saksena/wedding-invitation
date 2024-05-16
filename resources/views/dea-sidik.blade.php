@@ -83,7 +83,7 @@
             </div>
 
             <div class="h-full w-full bg-primary-400 rounded-xl overflow-hidden pb-10 relative max-w-sm mx-auto">
-                <div style="background-image: url('/img/cover/3.webp')" class="h-72 bg-cover bg-no-repeat bg-bottom w-full"></div>
+                <div style="background-image: url('/img/cover/3(1).webp')" class="h-72 bg-cover bg-no-repeat bg-bottom w-full"></div>
                     <div class="absolute left-0 top-48 h-24 w-full bg-gradient-to-t from-primary-400 via-primary-400/25 to-white/0 z-30"></div>
                     
                     <div class="px-5 pt-5 flex space-x-4">

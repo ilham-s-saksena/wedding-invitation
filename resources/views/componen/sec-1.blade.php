@@ -1,10 +1,10 @@
 <section id="home" class="w-full max-w-lg text-center h-screen relative grid place-items-center overflow-hidden mx-auto">
 
         <div class="">                <div class="">
-                    <div style="background-image: url('/img/cover/1.webp')" class="h-[80vh] absolute top-0 left-0 w-full bg-cover bg-center bg-no-repeat"></div>
+                    <div style="background-image: url('/img/cover/1(1).webp')" class="h-[80vh] absolute top-0 left-0 w-full bg-cover bg-center bg-no-repeat"></div>
                 </div>
 
-            <div style="background-image: url('/img/cover/1.webp')" class="h-[80vh] absolute top-0 left-0 w-full bg-cover bg-center bg-no-repeat"></div>
+            <div style="background-image: url('/img/cover/1(1).webp')" class="h-[80vh] absolute top-0 left-0 w-full bg-cover bg-center bg-no-repeat"></div>
         </div>
 
         <div class="absolute w-full h-1/2 left-0 top-0 bg-gradient-to-b from-primary-500/75 via-white/25 to-white/0 z-40"></div>

@@ -104,7 +104,7 @@
                     <div class="flex items-center">
                         <span class="flex-shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-sm font-medium text-center text-gray-900 bg-gray-100 border border-gray-300 rounded-s-lg">Alamat</span>
                         <div class="relative w-full">
-                            <input id="alamat-url22" type="text" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-e-0 border-gray-300 text-gray-500 text-sm border-s-0 focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5  " value="Jl Nasnajshaj jhdbajhsd asjhdbjahs " readonly disabled />
+                            <input id="alamat-url22" type="text" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-e-0 border-gray-300 text-gray-500 text-sm border-s-0 focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5" value="Desa Kalitinggar, Kec. Padamara, Kabupaten Purbalingga, Jawa Tengah" readonly disabled />
                         </div>
                         <button data-tooltip-target="tooltip-alamat-url22" data-copy-to-clipboard-target="alamat-url22" class="flex-shrink-0 z-10 inline-flex items-center py-3 px-4 text-sm font-medium text-center text-white bg-primary-700 rounded-e-lg hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 border border-primary-700 hover:border-primary-800" type="button">
                             <span id="default-icon">
