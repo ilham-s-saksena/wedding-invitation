@@ -48,13 +48,11 @@
 
 
 <script>
-    // Ambil referensi elemen-elemen input
     var nama_Input = document.getElementById("nama_");
     var nominalInput = document.getElementById("nominal");
     var via1Input = document.getElementById("via-1");
     var via2Input = document.getElementById("via-2");
     
-    // Ganti URL ketika nilai input berubah
     nama_Input.addEventListener("input", updateUrl);
     nominalInput.addEventListener("input", updateUrl);
     via1Input.addEventListener("input", updateUrl);
@@ -66,10 +64,9 @@
         var via1 = via1Input.value.trim();
         var via2 = via2Input.value.trim();
     
-        // Bangun URL berdasarkan input pengguna
         var url = "https://wa.me/6281225145161?text=";
         url += encodeURIComponent("Tidak sabar untuk berbagi dalam kebahagiaan kalian! Kami transfer sumbangan kami sebagai tanda dukungan dan doa terbaik untuk perjalanan indah kalian berdua. Semoga cinta dan kebahagiaan senantiasa menyertai langkah-langkah kalian menuju masa depan yang penuh berkat. Terima kasih telah memperbolehkan kami menjadi bagian dari momen bersejarah ini\n\n*Dari : " + nama_ + "*\nJumlah : Rp." + nominal + "\nKe Rekening : "+ via1 +", "+ via2);
-        // Tetapkan URL baru ke href
+
         document.getElementById("send_confirmation2").href = url;
     }
 </script>
