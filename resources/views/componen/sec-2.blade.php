@@ -1,5 +1,5 @@
 <section id="main" class="w-full max-w-lg text-center h-screen relative grid place-items-center overflow-hidden relative mx-auto">
-    <div class=" h-full w-full">
+    <div class=" h-full w-full fade-in">
         <div class="w-full h-[15vh] bg-gradient-to-b from-primary-600 via-white/0 to-white/0 absolute"></div>
         <div style="background-image: url('/img/cover/2(1).webp')" class="w-full h-[45vh] bg-cover bg-no-repeat bg-bottom"></div>
 

@@ -5,7 +5,7 @@
         </h3>
     </div>
 
-    <div class="h-full w-full bg-primary-600 rounded-xl overflow-hidden px-4 py-5 relative">
+    <div class="fade-in h-full w-full bg-primary-600 rounded-xl overflow-hidden px-4 py-5 relative">
         <div class="relative rounded-lg">
         <iframe class="rounded-lg border-4 border-primary-200" src="{{ $maps }}" width="100%" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>

@@ -1,4 +1,4 @@
-<section class="w-full max-w-lg bg-gradient-to-br from-primary-200 to-primary-700 px-10 py-5 mx-auto">
+<section class="fade-in w-full max-w-lg bg-gradient-to-br from-primary-200 to-primary-700 px-10 py-5 mx-auto">
     <div class="w-full h-full bg-primary-50 rounded-lg text-center flex flex-col justify-center py-10 px-5 space-y-5">
         <div class="text-2xl great-vibes-regular">Love Stories</div>
         <p class="text-sm">
@@ -8,7 +8,7 @@
 </section>
 
 
-<section id="wallet" class="w-full max-w-lg bg-gradient-to-r from-primary-50 to-primary-200 px-2 pb-20 pt-10 mx-auto">
+<section id="wallet" class="fade-in w-full max-w-lg bg-gradient-to-r from-primary-50 to-primary-200 px-2 pb-20 pt-10 mx-auto">
     <div class="mb-5 text-center">{{ $tamu }}
         <h3 class="great-vibes-regular text-4xl font-bold">
             Wedding Gift

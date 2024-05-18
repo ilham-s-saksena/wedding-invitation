@@ -1,6 +1,6 @@
 <!-- UCAPAN FORM -->
 
-<section id="ucapan" class="w-full max-w-lg bg-gradient-to-br from-primary-200 to-primary-700 px-5 pt-8 pb-20 mx-auto">
+<section id="ucapan" class="fade-in w-full max-w-lg bg-gradient-to-br from-primary-200 to-primary-700 px-5 pt-8 pb-20 mx-auto">
     <div class="text-center">
         <h3 class="great-vibes-regular text-4xl font-bold">
             Wedding Wishes

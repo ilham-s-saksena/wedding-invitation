@@ -1,4 +1,4 @@
-<section id="home" class="w-full max-w-lg text-center h-screen relative grid place-items-center overflow-hidden mx-auto">
+<section id="home" class="fade-in w-full max-w-lg text-center h-screen relative grid place-items-center overflow-hidden mx-auto">
 
     <div class="">                
         <div class="">

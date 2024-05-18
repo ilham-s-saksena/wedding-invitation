@@ -1,4 +1,4 @@
-<section id="" class="w-full max-w-lg bg-gradient-to-br from-primary-200 to-primary-700 px-10 py-5 mx-auto">
+<section id="" class="fade-in w-full max-w-lg bg-gradient-to-br from-primary-200 to-primary-700 px-10 py-5 mx-auto">
     <div class="w-full h-full bg-primary-50 rounded-lg text-center flex flex-col justify-center py-10 px-5 space-y-5">
         <p class="text-2xl">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيْم</p>
         <p class="text-sm">
@@ -8,7 +8,7 @@
     </div>
 </section>
 
-<section id="savedate" class="w-full max-w-lg min-h-screen bg-gradient-to-r from-primary-300 to-primary-800 px-4 pb-20 pt-10 mx-auto">
+<section id="savedate" class=" w-full max-w-lg min-h-screen bg-gradient-to-r from-primary-300 to-primary-800 px-4 pb-20 pt-10 mx-auto">
     <div class="mb-5 text-center">
         <h3 class="sacramento-regular text-4xl font-bold">
             We Are Getting Married
@@ -18,7 +18,7 @@
         </p>
     </div>
 
-    <div class="h-full w-full bg-primary-50 rounded-full text-center flex flex-col justify-center py-10">
+    <div class="fade-in h-full w-full bg-primary-50 rounded-full text-center flex flex-col justify-center py-10">
         <div>
             <div class="w-56 h-56 rounded-full bg-primary-500 p-3 mx-auto">
                 <div style="background-image: url('/img/profile/wahyu(1).webp');" class="w-full h-full rounded-full bg-cover bg-center bg-no-repeat"></div>
@@ -43,7 +43,7 @@
             <div class="text-center mt-3">
                 <h2 class="great-vibes-regular text-black text-3xl">Dea Fitriani Sabila</h2>
                 <div class="mt-1 text-sm font-medium">
-                    <p>Putra dari Bapak Suratno</p>
+                    <p>Putri dari Bapak Suratno</p>
                     <p>Dan Ibu Lenny Witiastuti A.Md</p>
                 </div>
             </div>
