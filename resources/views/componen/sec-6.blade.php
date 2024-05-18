@@ -62,15 +62,15 @@
         <div class="space-y-2">
             <div class="flex items-start">
                 <div class="flex items-center h-5">
-                    <input id="hadir" name="konfirmasi" type="radio" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300" required />
+                    <input id="hadir" name="konfirmasi" type="radio" value="Ya, Saya Bersedia Hadir" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300" required />
                 </div>
                 <label for="hadir" class="ms-2 text-sm font-medium text-gray-900">Ya, Saya Bersedia Hadir</label>
             </div>
             <div class="flex items-start">
                 <div class="flex items-center h-5">
-                    <input id="tidak" name="konfirmasi" type="radio" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300" required />
+                    <input id="tidak" name="konfirmasi" type="radio" value="Maaf, Saya Tidak Bisa Hadir" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300" required />
                 </div>
-                <label for="tidak" class="ms-2 text-sm font-medium text-gray-900">Maaf, Saya Tidak Bisa Hadir</label>
+                <label for="tidak" value="Maaf, Saya Tidak Bisa Hadir" class="ms-2 text-sm font-medium text-gray-900">Maaf, Saya Tidak Bisa Hadir</label>
             </div>
         </div>
 
@@ -91,23 +91,24 @@
     var nameInput = document.getElementById("name");
     var alamatInput = document.getElementById("alamat");
     var jumlahInput = document.getElementById("jumlah");
-    var hadirInput = document.getElementById("hadir");
-    var tidakInput = document.getElementById("tidak");
+    var radioButtons = document.querySelectorAll('input[name="konfirmasi"]');
     
     nameInput.addEventListener("input", updateUrl);
     alamatInput.addEventListener("input", updateUrl);
     jumlahInput.addEventListener("input", updateUrl);
-    hadirInput.addEventListener("input", updateUrl);
-    tidakInput.addEventListener("input", updateUrl);
-
+    radioButtons.forEach(radio => {
+        radio.addEventListener('change', updateUrl);
+    });
+    
     function updateUrl() {
         var name = nameInput.value.trim();
         var alamat = alamatInput.value.trim();
         var jumlah = jumlahInput.value.trim();
-        var hadir = hadirInput.value.trim();
-        var tidak = tidakInput.value.trim();
+        var radioInput = document.querySelector('input[name="konfirmasi"]:checked');
+        var konfirmasi = radioInput ? radioInput.value.trim() : "novalue";
         var url = "https://wa.me/6281225145161?text=";
-        url += encodeURIComponent("Dengan penuh kebahagiaan,\nkami merespons undangan pernikahan yang disampaikan dengan penuh kasih oleh {{ $nama1 }}.\n\nKami, " + name + " dan segenap keluarga dengan jumlah " + jumlah + ", dari "+ alamat +", dengan rendah hati akan hadir dalam momen bersejarah ini. Kami berdoa semoga cinta dan kebahagiaan senantiasa menyertai langkah kalian.,\ndan kami tak sabar untuk bersama-sama merayakan kebahagiaan ini di {{ $tempat }}.\n\nTerima kasih atas kehormatan yang diberikan melalui undangan ini");
+        url += encodeURIComponent("Dengan penuh kebahagiaan,\nkami merespons undangan pernikahan yang disampaikan dengan penuh kasih oleh {{ $nama1 }}.\n\nKami, " + name + " dan segenap keluarga dengan jumlah " + jumlah + ", dari "+ alamat +", dengan rendah hati mengkonfirmasi " + konfirmasi + " dalam momen bersejarah ini. Kami berdoa semoga cinta dan kebahagiaan senantiasa menyertai langkah kalian.,\ndan kami tak sabar untuk bersama-sama merayakan kebahagiaan ini di {{ $tempat }}.\n\nTerima kasih atas kehormatan yang diberikan melalui undangan ini");
         document.getElementById("send_confirmation").href = url;
+        console.log(konfirmasi, radioInput)
     }
 </script>

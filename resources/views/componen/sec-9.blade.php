@@ -28,13 +28,13 @@
                     <div class="pb-10">
                         <div class="flex items-start">
                             <div class="flex items-center h-5">
-                                <input id="via-1" name="via" type="checkbox" value="BCA Sidik" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-primary-300" required />
+                                <input id="via-1" name="via" type="radio" value="BCA Sidik" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-primary-300" required />
                             </div>
                             <label for="via-1" class="ms-2 text-sm font-medium text-gray-900">BCA - Sidik</label>
                         </div>
                         <div class="flex items-start">
                             <div class="flex items-center h-5">
-                                <input id="via-2" name="via" type="checkbox" value="BCA Dea" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-primary-300" required />
+                                <input id="via-2" name="via" type="radio" value="BCA Dea" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-primary-300" required />
                             </div>
                             <label for="via-2" class="ms-2 text-sm font-medium text-gray-900">BCA - Dea</label>
                         </div>
@@ -50,23 +50,24 @@
 <script>
     var nama_Input = document.getElementById("nama_");
     var nominalInput = document.getElementById("nominal");
-    var via1Input = document.getElementById("via-1");
-    var via2Input = document.getElementById("via-2");
+    var radioButtons2 = document.querySelectorAll('input[name="via"]');
     
     nama_Input.addEventListener("input", updateUrl);
     nominalInput.addEventListener("input", updateUrl);
-    via1Input.addEventListener("input", updateUrl);
-    via2Input.addEventListener("input", updateUrl);
+    radioButtons2.forEach(radio => {
+        radio.addEventListener('change', updateUrl);
+    });
     
     function updateUrl() {
         var nama_ = nama_Input.value.trim();
         var nominal = nominalInput.value.trim();
-        var via1 = via1Input.value.trim();
-        var via2 = via2Input.value.trim();
+        var radioInput2 = document.querySelector('input[name="via"]:checked');
+        var konfirmasi2 = radioInput2 ? radioInput2.value.trim() : "novalue";
     
         var url = "https://wa.me/6281225145161?text=";
-        url += encodeURIComponent("Tidak sabar untuk berbagi dalam kebahagiaan kalian! Kami transfer sumbangan kami sebagai tanda dukungan dan doa terbaik untuk perjalanan indah kalian berdua. Semoga cinta dan kebahagiaan senantiasa menyertai langkah-langkah kalian menuju masa depan yang penuh berkat. Terima kasih telah memperbolehkan kami menjadi bagian dari momen bersejarah ini\n\n*Dari : " + nama_ + "*\nJumlah : Rp." + nominal + "\nKe Rekening : "+ via1 +", "+ via2);
+        url += encodeURIComponent("Tidak sabar untuk berbagi dalam kebahagiaan kalian! Kami transfer sumbangan kami sebagai tanda dukungan dan doa terbaik untuk perjalanan indah kalian berdua. Semoga cinta dan kebahagiaan senantiasa menyertai langkah-langkah kalian menuju masa depan yang penuh berkat. Terima kasih telah memperbolehkan kami menjadi bagian dari momen bersejarah ini\n\n*Dari : " + nama_ + "*\nJumlah : Rp." + nominal + "\nKe Rekening : "+ konfirmasi2);
 
         document.getElementById("send_confirmation2").href = url;
+        console.log(radioInput2)
     }
 </script>
