@@ -9,11 +9,16 @@
             <h2 class="text-lg  textShadow">{{$hari}}, {{ $tanggal }} Juni 2024</h2>
 
             <div class="grid grid-cols-4 gap-3 w-full max-w-lg mt-12 mx-auto px-14" id="countdown">
-                <div class="bg-primary-100 border-2 border-primary-800 h-20 grid place-items-center rounded-xl font-bold text-3xl text-black" id="days">0</div>
-                <div class="bg-primary-100 border-2 border-primary-800 h-20 grid place-items-center rounded-xl font-bold text-3xl text-black" id="hours">0</div>
-                <div class="bg-primary-100 border-2 border-primary-800 h-20 grid place-items-center rounded-xl font-bold text-3xl text-black" id="minutes">0</div>
-                <div class="bg-primary-100 border-2 border-primary-800 h-20 grid place-items-center rounded-xl font-bold text-3xl text-black" id="seconds">0</div>
+                <div style="color: black;" class="bg-primary-100 border-2 border-primary-800 h-20 grid place-items-center rounded-xl font-bold text-3xl text-black relative "><span id="days"></span><span class="absolute left-full ml-1">:</span></div>
+                <div style="color: black;" class="bg-primary-100 border-2 border-primary-800 h-20 grid place-items-center rounded-xl font-bold text-3xl text-black relative "><span id="hours"></span><span class="absolute left-full ml-1">:</span></div>
+                <div style="color: black;" class="bg-primary-100 border-2 border-primary-800 h-20 grid place-items-center rounded-xl font-bold text-3xl text-black relative "><span id="minutes"></span><span class="absolute left-full ml-1">:</span></div>
+                <div style="color: black;" class="bg-primary-100 border-2 border-primary-800 h-20 grid place-items-center rounded-xl font-bold text-3xl text-black relative "><span id="seconds"></span><span class="absolute left-full ml-1"></span></div>
             </div>
+
+            <noscript>
+                <div class="text-center mb-1" style="color: red; font-weight: bold;">Aktifkan JavaScript untuk melihat countdown!</div>
+            </noscript>
+
             <div class="grid grid-cols-4 gap-3 w-full max-w-lg -mt-1 mx-auto px-14">
                 <div class="bg-primary-100 border-2 border-primary-800 grid place-items-center rounded-xl text-lg font-medium text-black">Hari</div>
                 <div class="bg-primary-100 border-2 border-primary-800 grid place-items-center rounded-xl text-lg font-medium text-black">Jam</div>
@@ -21,7 +26,7 @@
                 <div class="bg-primary-100 border-2 border-primary-800 grid place-items-center rounded-xl text-lg font-medium text-black">Detik</div>
             </div>
 
-            <div class="mt-12 w-fit mx-auto">
+            <div  class="mt-12 w-fit mx-auto">
                 <a href="https://www.google.com/calendar/render?action=TEMPLATE&text=The+wedding+of+%7C+Sidik+%26+Dea&details=%3Cp%3ETerima+Kasih+telah+membarikan+doa+dan+restu+dalam+acara+pernikahan+kami%3C%2Fp%3E&dates=20240627T070000Z%2F20240627T100000Z&ctz=Asia/Jakarta" 
                     class="flex mb-20 items-center space-x-2 text-white bg-orange-700 hover:bg-orange-800 focus:ring-4 focus:outline-none focus:ring-orange-300 border-2 font-medium rounded-3xl text-sm pl-5 pr-7 py-2.5 text-center">
                     
@@ -29,7 +34,7 @@
                         <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 9v.906a2.25 2.25 0 0 1-1.183 1.981l-6.478 3.488M2.25 9v.906a2.25 2.25 0 0 0 1.183 1.981l6.478 3.488m8.839 2.51-4.66-2.51m0 0-1.023-.55a2.25 2.25 0 0 0-2.134 0l-1.022.55m0 0-4.661 2.51m16.5 1.615a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V8.844a2.25 2.25 0 0 1 1.183-1.981l7.5-4.039a2.25 2.25 0 0 1 2.134 0l7.5 4.039a2.25 2.25 0 0 1 1.183 1.98V19.5Z" />
                     </svg>
                     
-                    <p class="text-lg font-medium text-white">
+                    <p style="color: white  ;" class="text-lg font-medium text-white">
                         Save The Date
                     </p>
                 </a>
