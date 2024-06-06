@@ -9,16 +9,16 @@
             <h2 class="text-lg  textShadow">{{$hari}}, {{ $tanggal }} Juni 2024</h2>
 
             <div class="grid grid-cols-4 gap-3 w-full max-w-lg mt-12 mx-auto px-14" id="countdown">
-                <div class="bg-primary-100 border-2 border-primary-800 h-20 grid place-items-center rounded-xl font-bold text-3xl" id="days">0</div>
-                <div class="bg-primary-100 border-2 border-primary-800 h-20 grid place-items-center rounded-xl font-bold text-3xl" id="hours">0</div>
-                <div class="bg-primary-100 border-2 border-primary-800 h-20 grid place-items-center rounded-xl font-bold text-3xl" id="minutes">0</div>
-                <div class="bg-primary-100 border-2 border-primary-800 h-20 grid place-items-center rounded-xl font-bold text-3xl" id="seconds">0</div>
+                <div class="bg-primary-100 border-2 border-primary-800 h-20 grid place-items-center rounded-xl font-bold text-3xl text-black" id="days">0</div>
+                <div class="bg-primary-100 border-2 border-primary-800 h-20 grid place-items-center rounded-xl font-bold text-3xl text-black" id="hours">0</div>
+                <div class="bg-primary-100 border-2 border-primary-800 h-20 grid place-items-center rounded-xl font-bold text-3xl text-black" id="minutes">0</div>
+                <div class="bg-primary-100 border-2 border-primary-800 h-20 grid place-items-center rounded-xl font-bold text-3xl text-black" id="seconds">0</div>
             </div>
             <div class="grid grid-cols-4 gap-3 w-full max-w-lg -mt-1 mx-auto px-14">
-                <div class="bg-primary-100 border-2 border-primary-800 grid place-items-center rounded-xl text-lg font-medium">Hari</div>
-                <div class="bg-primary-100 border-2 border-primary-800 grid place-items-center rounded-xl text-lg font-medium">Jam</div>
-                <div class="bg-primary-100 border-2 border-primary-800 grid place-items-center rounded-xl text-lg font-medium">Menit</div>
-                <div class="bg-primary-100 border-2 border-primary-800 grid place-items-center rounded-xl text-lg font-medium">Detik</div>
+                <div class="bg-primary-100 border-2 border-primary-800 grid place-items-center rounded-xl text-lg font-medium text-black">Hari</div>
+                <div class="bg-primary-100 border-2 border-primary-800 grid place-items-center rounded-xl text-lg font-medium text-black">Jam</div>
+                <div class="bg-primary-100 border-2 border-primary-800 grid place-items-center rounded-xl text-lg font-medium text-black">Menit</div>
+                <div class="bg-primary-100 border-2 border-primary-800 grid place-items-center rounded-xl text-lg font-medium text-black">Detik</div>
             </div>
 
             <div class="mt-12 w-fit mx-auto">
