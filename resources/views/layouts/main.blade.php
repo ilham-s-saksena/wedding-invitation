@@ -170,7 +170,7 @@
 
 
 
-<script>
+<!-- <script>
     document.addEventListener('DOMContentLoaded', function () {
     const faders = document.querySelectorAll('.fade-in');
 
@@ -194,7 +194,7 @@
     });
     });
 
-</script>
+</script> -->
                 
     </body>
 </html>
